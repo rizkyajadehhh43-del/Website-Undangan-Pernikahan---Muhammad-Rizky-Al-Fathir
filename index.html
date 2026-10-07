@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Undangan Pernikahan Ju Jingyi & Joseph Zeng</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Pinyon+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<input type="checkbox" id="openChk" class="vh" aria-label="Buka undangan">
+<div id="cover">
+  <svg class="stars" width="100%" height="100%" style="position:absolute;inset:0;z-index:-1" aria-hidden="true"><g fill="#f4d98f"><circle cx="8%" cy="10%" r="2"/><circle cx="25%" cy="22%" r="1.5"/><circle cx="80%" cy="12%" r="2.5"/><circle cx="92%" cy="30%" r="1.5"/><circle cx="15%" cy="75%" r="2"/><circle cx="70%" cy="85%" r="2"/><circle cx="50%" cy="6%" r="1.5"/><circle cx="90%" cy="70%" r="1.5"/></g></svg>
+  <p>The Wedding of</p>
+  <div class="names">Ju Jingyi &amp; Joseph Zeng</div>
+  <p class="to">Kepada Yth. Bapak/Ibu/Saudara/i</p>
+  <div class="guest" id="guest">Muhammad Rizky Al Fathir</div>
+  <label class="btn" for="openChk">Buka undangan</label>
+</div>
+
+<!-- GANTI GAMBAR: ubah nama file di src="..." dengan foto kamu, misalnya images/foto-wanita.jpg -->
+<section id="hero" aria-label="Sampul">
+  <p>Dengan penuh sukacita kami mengundang Anda ke pernikahan kami</p>
+  <h1 class="names">Ju Jingyi &amp; Joseph Zeng</h1>
+  <p>Sabtu, 20 Desember 2026</p>
+  <img src="images/hero.svg" alt="Istana dongeng di bawah bulan sabit">
+</section>
+
+<section id="couple">
+  <h2>Mempelai</h2>
+  <p style="max-width:44ch;margin:0 auto 2rem">Dua insan seni yang dipertemukan oleh panggung, lagu, dan sebuah takdir manis.</p>
+  <div class="couple">
+    <div class="person">
+      <img src="image/pengantin cewe.jpg" alt="Foto mempelai wanita">
+      <h3>Ju Jingyi</h3>
+      <small>Aktris &amp; penyanyi<br>Putri dari Bapak Hendra &amp; Ibu Sekar</small>
+    </div>
+    <div class="person">
+      <img src="image/pengantin cowo2.jpg" alt="Foto mempelai pria">
+      <h3>Joseph Zeng</h3>
+      <small>Aktor &amp; musisi<br>Putra dari Bapak Wahyu &amp; Ibu Laksmi</small>
+    </div>
+  </div>
+</section>
+
+<section id="story">
+  <h2>Kisah Cinta Kami</h2>
+  <div class="story">
+    <article><b>2021, Pertemuan pertama</b><br>Di balik panggung sebuah drama musikal, Ju Jingyi lupa naskahnya dan Joseph Zeng diam-diam membisikkan dialognya. Dari bisikan itulah semuanya dimulai.</article>
+    <article><b>2022, Lagu pertama</b><br>Mereka mulai menulis lagu bersama. Satu lagu selesai, dan satu perasaan yang tak lagi bisa disembunyikan.</article>
+    <article><b>2024, Janji di bawah bulan</b><br>Di taman mawar merah,Joseph Zeng berlutut dan bertanya apakah Ju Jingyi mau menjadi pemeran utama dalam hidupnya selamanya.</article>
+    <article><b>2026, Dan mereka bahagia selamanya</b><br>Kini kami siap menutup satu babak dan membuka babak baru, bersama keluarga dan sahabat tercinta.</article>
+  </div>
+</section>
+
+<section id="event" style="max-width:none">
+  <h2>Hari Bahagia</h2>
+  <p style="font-size:1.5rem;margin-bottom:2rem">Sabtu, 20 Desember 2026</p>
+  <div class="ev">
+    <div><h3>Akad Nikah</h3><p>Sabtu, 20 Desember 2026<br>Pukul 09.00 WIB<br>Ballroom Istana Mawar, Jakarta</p></div>
+    <div><h3>Resepsi</h3><p>Sabtu, 20 Desember 2026<br>Pukul 11.00 sampai selesai<br>Ballroom Istana Mawar, Jakarta</p></div>
+  </div>
+  <p style="margin-top:1.5rem">Dress code: merah, marun, atau emas.</p>
+</section>
+
+<section id="gallery">
+  <h2>Galeri Prewedding</h2>
+  <div class="gal">
+    <figure><img src="image/momen bahagia.jpg" alt="Momen Bahagia"><figcaption>Momen Bahagia</figcaption></figure>
+    <figure><img src="image/awal.jpg" alt="Awal Cerita"><figcaption>Awal Cerita</figcaption></figure>
+    <figure><img src="image/Hangat.jpg" alt="Tahanan Hangat"><figcaption>Tahanan Hangat</figcaption></figure>
+    <figure><img src="image/tatapan pertama.jpg" alt="Tatap Pertama"><figcaption>Tatap Pertama</figcaption></figure>
+    <figure><img src="image/Langkah Bersama.jpg" alt="Langkah Bersama"><figcaption>Langkah Bersama</figcaption></figure>
+    <figure><img src="image/menuju janji suci.jpg" alt="Menuju Janji Suci"><figcaption>Menuju Janji Suci</figcaption></figure>
+  </div>
+</section>
+
+<section id="wishes">
+  <h2>Ucapan &amp; Doa</h2>
+  <form action="#wishes" method="get">
+    <label>Nama<input name="nama" required maxlength="60" value="Muhammad Rizky Al Fathir"></label>
+    <label>Kehadiran<select name="hadir"><option>Hadir</option><option>Tidak hadir</option><option>Masih ragu</option></select></label>
+    <label>Ucapan<textarea name="ucapan" required maxlength="300" placeholder="Tulis ucapan dan doa untuk kedua mempelai"></textarea></label>
+    <button class="btn" type="submit">Kirim ucapan</button>
+  </form>
+  <div id="list">
+    <div><b>Keluarga Besar</b> <small>(Hadir)</small><br>Selamat menempuh hidup baru. Semoga bahagia selamanya seperti dalam dongeng.</div>
+    <div><b>Sahabat Panggung</b> <small>(Hadir)</small><br>Dari balik layar sampai pelaminan, kami ikut bahagia. Semoga langgeng!</div>
+    <div><b>Teman Sekolah</b> <small>(Masih ragu)</small><br>Barakallahu lakuma wa baraka alaikuma. Semoga sakinah, mawaddah, warahmah.</div>
+  </div>
+</section>
+
+<footer>
+  <p>Merupakan kehormatan bagi kami apabila Anda berkenan hadir dan memberikan doa restu.</p>
+  <div class="names">Ju Jingyi &amp; Joseph Zeng</div>
+  <p>Kami yang berbahagia, keluarga besar kedua mempelai</p>
+</footer>
+
+</body>
+</html>
